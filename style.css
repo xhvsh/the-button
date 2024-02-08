@@ -124,6 +124,11 @@ body {
   background: var(--primary);
   box-shadow: 0 20px var(--secondary);
   color: var(--secondary);
+  -webkit-tap-highlight-color: transparent;
+}
+.clicked {
+  transform: translateY(0);
+  box-shadow: 0 0 #a00;
 }
 .number {
   font-size: 3rem;
